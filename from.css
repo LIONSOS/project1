@@ -53,7 +53,7 @@ ul li::marker {
 
 
   /* Set a style for all buttons */
-button {
+button,input[type=submit] {
 
   background-color: #5a5a5a;
   color: white;
