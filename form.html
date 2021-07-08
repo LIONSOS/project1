@@ -58,8 +58,9 @@
 
       <p>נא לרשום את האיימל בצורה מדויקת. </p>
 
-      <label for="email" required>איימל:</label>
-      <input type="email" id="email" name="email">
+    
+      <label for="email">איימל:</label>
+      <input type="email" id="email" name="email" required>
     </div>
 
     <br>
@@ -92,8 +93,8 @@
     var modal = document.getElementById('id01');
 
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if(event.target == modal) {
+    window.onclick = function (event) {
+      if (event.target == modal) {
         modal.style.display = "none";
       }
     }
