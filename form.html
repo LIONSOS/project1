@@ -26,19 +26,19 @@
   <br>
 
   <form action="/action_page.php" onsubmit="document.getElementById('id01').style.display='block'; return false;">
-    <div style="display:flex;justify-content:center;align-items:center;">נא לכתוב את השם שלך. </div>
-    <div style="display:flex;justify-content:center;align-items:center;">
+    <div style="text-align:center">נא לכתוב את השם שלך. </div>
+    <div style="text-align: center;">
       <label for="fname">שם:</label><br>
       <input type="text" id="fname" name="fname" required><br>
       <label for="lname">שם משפחה:</label><br>
       <input type="text" id="lname" name="lname" required><br><br>
     </div>
 
-    <div style="display:flex;justify-content:center;align-items:center;">
-      <h4>בחר אחת מהאפשרויות</h4>
+    <div style="text-align:center">     
+       <h4>בחר אחת מהאפשרויות</h4>
     </div>
 
-    <div style="display:flex;justify-content:center;align-items:center;">
+    <div style="text-align:center">
         <input type="radio" id="html" name="fav_language" value="HTML" required>
         <label for="html">באג באתר</label><br>
         <input type="radio" id="css" name="fav_language" value="CSS" required>
@@ -49,12 +49,12 @@
 
     <br>
 
-    <div style="display:flex;justify-content:center;align-items:center;">נא לפרט על פרטי הבעיה</div>
+    <div style="text-align:center">נא לפרט על פרטי הבעיה</div>
 
     <div style="text-align:center">
       <label for="reporting"></label>
-      <textarea id="reporting" name="reporting" rows="4" cols="50">
-              </textarea>
+      <textarea id="reporting" name="reporting"  rows="4" cols="45" required ></textarea>
+
 
       <p>נא לרשום את האיימל בצורה מדויקת. </p>
 
@@ -73,6 +73,7 @@
       <div class="container">
         <h1>אזהרה</h1>
         <p>האם אתה בטוח שככה אתה רוצה להגיש את הטופס?</p>
+        <p>במידה ותלחץ כן תעבור לדף הראשי.</p>
 
         <div class="clearfix">
           <button type="button" onclick="document.getElementById('id01').style.display='none'"
