@@ -77,10 +77,12 @@
         <p>במידה ותלחץ כן תעבור לדף הראשי.</p>
 
         <div class="clearfix">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'"
-            class="cancelbtn">כן</button>
-          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+
+            <a class="cancelbtn" href="index.html">כן</a>
+
+          <button  onclick="document.getElementById('id01').style.display='none'"
             class="deletebtn">לא</button>
+
         </div>
       </div>
     </div>
@@ -90,17 +92,17 @@
 
 
 
-  <script>
-    // Get the modal
-    var modal = document.getElementById('id01');
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
       }
-    }
-  </script>
+    </script>
 
 
 
