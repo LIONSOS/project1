@@ -109,14 +109,15 @@ button:hover {
 .cancelbtn, .deletebtn {
   float: left;
   width: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-decoration: none;
 }
 
 /* Add a color to the cancel button */
 .cancelbtn {
   background-color: #ccc;
   color: black;
-  padding: 15px;
- display:block;
 }
 
 /* Add a color to the delete button */
